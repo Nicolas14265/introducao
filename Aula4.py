@@ -33,5 +33,4 @@ print('Média por turno:', media_por_turno)
 orcamento = 20
 while orcamento>0:
    orcamento-=5
-   print('gastei 5 reais')
-   
+   print('gastei 5 reais') 
