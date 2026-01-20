@@ -31,8 +31,8 @@ for idade in idades:
     else:
         menores_de_idade.append(idade)
 
-print('Maiores de idade:',(maiores_de_idade))
-print('Menores de idade:',(menores_de_idade))
+print('Maiores de idade:', (maiores_de_idade))
+print('Menores de idade:', (menores_de_idade))
 
 #Contagens de salarios
 salarios = [2000,5000,1500,2100,5000,1500,2000]
