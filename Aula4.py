@@ -13,7 +13,8 @@ def classificar_desempenho(nota):
         return 'baixo'
     
 df['desempenho'] = df['nota'].apply(classificar_desempenho)
-print(df.head())
+
+#print(df.head())
 
 df = df.dropna(subset = ['nota'])
 destaques = {}
@@ -33,4 +34,4 @@ print('Média por turno:', media_por_turno)
 orcamento = 20
 while orcamento>0:
    orcamento-=5
-   print('gastei 5 reais') 
+   print('gastei 5 reais')
