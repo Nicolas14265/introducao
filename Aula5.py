@@ -73,5 +73,3 @@ while numero < 20:
     else:
         print('Número', numero, 'é ímpar') 
     numero += 1
-
-    
