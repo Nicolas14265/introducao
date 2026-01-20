@@ -15,8 +15,8 @@ df=pd.DataFrame(dados)
 sns.barplot(x='nome',y='salario',data=df)
 plt.show()
 
-dados2={'idade':[16,17,18,20],'salario':[1000,2000,1515,5000]}
-df=pd.DataFrame(dados2)
+dados={'idade':[16,17,18,20],'salario':[1000,2000,1515,5000]}
+df=pd.DataFrame(dados)
 sns.barplot(x='idade',y='salario',data=df)
 plt.show()
 
