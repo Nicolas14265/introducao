@@ -1,3 +1,5 @@
+#Limpando tabela
+
 import pandas as pd
 
 df = pd.read_csv('dados_estudantes.csv')
