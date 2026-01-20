@@ -22,7 +22,7 @@ for _, linha in df.iterrows():
     if linha['nota']>=9:
         destaques[linha['id']] = linha['nota']
 
-#print(destaques)
+print(destaques)
 
 media_por_turno={}
 for turno in df['turno'].unique():
